@@ -25,11 +25,11 @@ RUN \
         json-c-dev=0.17-r0 \
         libffi-dev=3.4.6-r0 \
         libuv-dev=1.48.0-r0 \
-        openssl-dev=3.3.2-r0 \
+        openssl-dev=3.3.2-r1 \
         python3-dev=3.12.7-r0 \
         zlib-dev=1.3.1-r1 \
     \
-    && apk add --no-cache --virtual \
+    && apk add --no-cache  \
         ack=3.7.0-r1 \
         alsa-plugins-pulse=1.2.7.1-r3 \
         alsa-utils=1.2.11-r1 \
