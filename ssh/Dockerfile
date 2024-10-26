@@ -29,7 +29,7 @@ RUN \
         python3-dev=3.12.7-r0 \
         zlib-dev=1.3.1-r1 \
     \
-    && apk add --no-cache \
+    && apk add --no-cache --virtual \
         ack=3.7.0-r1 \
         alsa-plugins-pulse=1.2.7.1-r3 \
         alsa-utils=1.2.11-r1 \
