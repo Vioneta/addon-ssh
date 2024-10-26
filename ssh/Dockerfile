@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:16.3.2
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:16.3.4
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -29,7 +29,7 @@ RUN \
         python3-dev=3.12.7-r0 \
         zlib-dev=1.3.1-r1 \
     \
-    && apk add --no-cache  \
+    && apk add --no-cache \
         ack=3.7.0-r1 \
         alsa-plugins-pulse=1.2.7.1-r3 \
         alsa-utils=1.2.11-r1 \
@@ -57,7 +57,7 @@ RUN \
         net-tools=2.10-r3 \
         nmap=7.95-r0 \
         openssh=9.7_p1-r4 \
-        openssl=3.3.2-r0 \
+        openssl=3.3.2-r1 \
         procps-ng=4.0.4-r0 \
         pwgen=2.08-r3 \
         pulseaudio-utils=17.0-r0 \
